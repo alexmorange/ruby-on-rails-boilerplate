@@ -1,15 +1,24 @@
-# Ruby on Rails boilerplate
+# README
 
-To get this application running, after cloning the project, run the commands:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-  ```docker compose run app rails new app -j esbuild --force --database=postgresql --css=bootstrap --skip-git```
-  
-  ```cd app```
-  
-  ```bundler install```
-  
-  ```rake db:create```
-  
-  ```rails s```
+Things you may want to cover:
 
-You have to run the bundler install command, because I can't get the gem ```tzinfo-data`` to get copied over. You have to run the rake command to get the database created. 
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
