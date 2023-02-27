@@ -80,3 +80,6 @@ yarn-debug.log*
 /public/uploads
 log/development.log
 *.pid
+*.log
+*.pid
+*.pid
