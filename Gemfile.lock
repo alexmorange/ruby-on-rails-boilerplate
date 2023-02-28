@@ -243,10 +243,11 @@ DEPENDENCIES
   cssbundling-rails
   debug
   guard (~> 2.14.0)
-  guard-minitest
+  guard-minitest (~> 2.4.6)
   jbuilder
   jsbundling-rails
   pg (~> 1.1)
+  pry (~> 0.14.1)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   selenium-webdriver

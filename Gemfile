@@ -63,6 +63,7 @@ group :development do
   gem "web-console"
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   gem "spring"
+  gem 'pry', '~> 0.14.1'
 end
 
 group :test do
@@ -70,5 +71,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem "guard-minitest"
+  gem "guard-minitest", "~> 2.4.6"
 end
