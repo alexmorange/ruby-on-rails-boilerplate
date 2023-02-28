@@ -1,7 +1,7 @@
 # README
 
 ## Commands to get application running
-{docker build . -t rails && rails s}
+```docker build . -t rails && rails s```
 
 -----------
 

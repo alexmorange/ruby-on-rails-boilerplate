@@ -81,5 +81,3 @@ yarn-debug.log*
 log/development.log
 *.pid
 *.log
-*.pid
-*.pid

@@ -90,4 +90,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Encrypted credentials needed for rails 5.2 and onward 
+  config.require_master_key = true
 end
